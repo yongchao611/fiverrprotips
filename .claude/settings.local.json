@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit *)",
+      "WebFetch(domain:fiverrprotips.com)",
+      "Bash(curl -sI https://fiverrprotips.com)",
+      "Bash(curl -s https://fiverrprotips.com)",
+      "Bash(curl -s https://fiverrprotips.com/privacy-policy)",
+      "Bash(curl -s https://fiverrprotips.com/contact)"
+    ]
+  }
+}

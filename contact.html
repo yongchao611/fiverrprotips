@@ -3,175 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact FiverrProTips — Have questions about selling on Fiverr? We'd love to hear from you. Reach out via our contact form or email.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://fiverrprotips.com/contact">
   <title>Contact Us — FiverrProTips</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar scrolled" id="navbar">
+  <header>
     <div class="container">
-      <a href="index.html" class="logo">
-        <div class="icon">&#9733;</div>
-        Fiverr<span>ProTips</span>
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html#features">Features</a></li>
-        <li><a href="index.html#faq">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://fiverr.com" target="_blank" rel="noopener" class="btn btn-primary">Visit Fiverr</a></li>
-      </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
+      <a href="index.html" class="logo">Fiverr<span>ProTips</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <!-- Page Hero -->
   <section class="page-hero">
     <div class="container">
       <h1>Contact Us</h1>
-      <p>Have a question? We'd love to hear from you.</p>
     </div>
   </section>
 
-  <!-- Content -->
   <section class="content-section">
     <div class="container">
       <div class="contact-grid">
-        <!-- Contact Info -->
         <div class="contact-info">
           <h2>Get In Touch</h2>
-          <p>Whether you have a question about selling on Fiverr, need help with a specific strategy, or just want to share your success story — we're here to help.</p>
+          <p>Have a question about Fiverr or our content? We'd love to hear from you.</p>
 
-          <div class="contact-methods">
-            <div class="contact-method">
-              <div class="contact-method-icon">&#9993;</div>
-              <div>
-                <h4>Email Us</h4>
-                <a href="mailto:hello@fiverrprotips.com">hello@fiverrprotips.com</a>
-                <p>Usually respond within 24 hours</p>
-              </div>
+          <div class="contact-method">
+            <div class="contact-method-icon">&#9993;</div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:hello@fiverrprotips.com">hello@fiverrprotips.com</a>
+              <p>Usually respond within 24 hours</p>
             </div>
-            <div class="contact-method">
-              <div class="contact-method-icon">&#9906;</div>
-              <div>
-                <h4>Follow Us</h4>
-                <p>Stay updated with the latest Fiverr tips and strategies on social media.</p>
-                <div class="social-links">
-                  <a href="#" class="social-link" aria-label="Twitter">&#120143;</a>
-                  <a href="#" class="social-link" aria-label="Facebook">f</a>
-                  <a href="#" class="social-link" aria-label="Instagram">&#9737;</a>
-                  <a href="#" class="social-link" aria-label="YouTube">&#9654;</a>
-                </div>
-              </div>
-            </div>
-            <div class="contact-method">
-              <div class="contact-method-icon">&#9881;</div>
-              <div>
-                <h4>Quick Resources</h4>
-                <p>Check our <a href="index.html#faq">FAQ section</a> for instant answers to common questions about selling on Fiverr. Or visit <a href="https://fiverr.com" target="_blank" rel="noopener">Fiverr.com</a> directly to get started.</p>
-              </div>
+          </div>
+          <div class="contact-method">
+            <div class="contact-method-icon">&#9881;</div>
+            <div>
+              <h4>Quick Links</h4>
+              <p>Visit <a href="https://fiverr.com" target="_blank" rel="noopener">Fiverr.com</a> directly to browse services and find freelancers.</p>
             </div>
           </div>
         </div>
 
-        <!-- Contact Form -->
         <div class="contact-form-card" id="contactFormCard">
-          <h3>Send Us a Message</h3>
-          <form id="contactForm" novalidate>
+          <h3>Send a Message</h3>
+          <form id="contactForm">
             <div class="form-group">
               <label for="name">Your Name *</label>
-              <input type="text" id="name" name="name" placeholder="John Doe" required>
+              <input type="text" id="name" placeholder="John Doe" required>
             </div>
             <div class="form-group">
               <label for="email">Email Address *</label>
-              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              <input type="email" id="email" placeholder="john@example.com" required>
             </div>
             <div class="form-group">
               <label for="subject">Subject</label>
-              <select id="subject" name="subject">
+              <select id="subject">
                 <option value="">Select a topic...</option>
                 <option value="general">General Question</option>
-                <option value="fiverr-tips">Fiverr Selling Tips</option>
-                <option value="suggestion">Suggestion / Feedback</option>
-                <option value="partnership">Partnership Inquiry</option>
-                <option value="privacy">Privacy / Data Request</option>
+                <option value="fiverr">Fiverr Tips</option>
+                <option value="suggestion">Suggestion</option>
                 <option value="other">Other</option>
               </select>
             </div>
             <div class="form-group">
               <label for="message">Your Message *</label>
-              <textarea id="message" name="message" placeholder="Tell us how we can help..." required></textarea>
+              <textarea id="message" placeholder="Tell us how we can help..." required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+            <button type="submit" class="form-submit">Send Message</button>
           </form>
-
-          <!-- Success Message (hidden by default) -->
           <div class="form-success" id="formSuccess">
             <div class="success-icon">&#10003;</div>
             <h3>Message Sent!</h3>
-            <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+            <p>We'll get back to you within 24 hours.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
+  <footer>
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-about">
-          <a href="index.html" class="logo">
-            <div class="icon">&#9733;</div>
-            Fiverr<span>ProTips</span>
-          </a>
-          <p>Your go-to resource for mastering Fiverr. We help freelancers build profitable businesses on the world's leading digital services marketplace.</p>
-          <div class="social-links">
-            <a href="#" class="social-link" aria-label="Twitter">&#120143;</a>
-            <a href="#" class="social-link" aria-label="Facebook">f</a>
-            <a href="#" class="social-link" aria-label="Instagram">&#9737;</a>
-            <a href="#" class="social-link" aria-label="YouTube">&#9654;</a>
-          </div>
-        </div>
-        <div>
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="index.html#features">Features</a></li>
-            <li><a href="index.html#testimonials">Testimonials</a></li>
-            <li><a href="index.html#faq">FAQ</a></li>
-            <li><a href="https://fiverr.com" target="_blank" rel="noopener">Fiverr.com</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Resources</h4>
-          <ul class="footer-links">
-            <li><a href="https://fiverr.com" target="_blank" rel="noopener">Join Fiverr</a></li>
-            <li><a href="https://fiverr.com" target="_blank" rel="noopener">Browse Gigs</a></li>
-            <li><a href="https://fiverr.com" target="_blank" rel="noopener">Fiverr Pro</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Legal</h4>
-          <ul class="footer-links">
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 FiverrProTips.com. All rights reserved.</p>
-        <p><a href="privacy-policy.html">Privacy Policy</a> · <a href="contact.html">Contact</a></p>
-      </div>
-      <p class="footer-disclaimer">FiverrProTips.com is an independent resource and is not affiliated with, endorsed by, or sponsored by Fiverr International Ltd. Fiverr&reg; is a registered trademark of Fiverr International Ltd. This site contains affiliate links, and we may earn a commission if you sign up through our links — at no extra cost to you.</p>
+      <p>&copy; 2026 FiverrProTips.com. All rights reserved.</p>
+      <p class="footer-links"><a href="privacy-policy.html">Privacy Policy</a> · <a href="contact.html">Contact</a></p>
+      <p class="disclaimer">This site is an independent resource and is not affiliated with Fiverr International Ltd. We may earn a commission from affiliate links.</p>
     </div>
   </footer>
 
